@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Trackify - Job Application Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Available Scripts
+Trackify is a modern, full-featured job application tracking web application designed to help users manage their job search process. It includes features such as authentication, session management, and an intuitive interface to track job applications efficiently.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+Check out the live version of Trackify [here](#) *(Add link once deployed)*.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*(Include screenshots of the main pages: Login, Dashboard, Jobs, etc.)*
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Authentication**: Secure user authentication with JWT token-based sessions.
+- **Dashboard**: View and manage your job applications in a clean and intuitive interface.
+- **Session Management**: Automatic handling of session expiration and user redirection.
+- **Responsive Design**: Fully responsive layout that works across all devices.
+- **Protected Routes**: Access control with protected routes for logged-in users only.
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Frontend library for building user interfaces.
+- **React Router**: For handling navigation and routing within the app.
+- **Axios**: For making HTTP requests to the backend.
+- **CSS Modules**: For component-level styling.
+- **JWT (JSON Web Tokens)**: For secure user authentication and session management.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+Follow these instructions to set up and run the project locally on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Node.js** (v14+)
+- **npm** (v6+) or **yarn** (v1.22+)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository**
 
-## Learn More
+   ```bash
+   git clone https://github.com/ananaymathur/Trackify-frontend.git
+   cd Tarckify-frontend
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Install dependencies**
 
-### Code Splitting
+    ```bash
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Set up environment variables**
 
-### Analyzing the Bundle Size
+    Create a .env file in the root directory and add the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```plaintext
+    REACT_APP_API_URL=http://your-backend-api-url.com
+    ```
 
-### Making a Progressive Web App
+    Replace http://your-backend-api-url.com with your actual backend URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. **Run the application**
 
-### Advanced Configuration
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    or with Yarn:
 
-### Deployment
+    ```bash
+    yarn start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Open in your browser
 
-### `npm run build` fails to minify
+    The app will run on http://localhost:3000 by default.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/NewFeature)
+3. Commit your Changes (git commit -m 'Add some feature')
+4. Push to the Branch (git push origin feature/NewFeature)
+5. Open a Pull Request
+
+

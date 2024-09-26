@@ -1,0 +1,67 @@
+/* src/components/AuthForm.css */
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #697565; /* Label color */
+  margin-bottom: 5px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 40px 12px 15px; /* Adjust padding to accommodate the icons */
+  font-size: 16px;
+  border: 1px solid #697565; /* Visible border color */
+  border-radius: 8px;
+  background: none; /* No background color */
+  color: #ECDFCC; /* Text color */
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #ECDFCC; /* Change border color on focus */
+}
+
+.input-icon {
+  position: absolute;
+  right: 15px; /* Position the icon inside the input field */
+  color: #697565; /* Icon color */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+/* Styling for the submit button */
+.auth-button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #697565;
+  color: #ECDFCC;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #ECDFCC;
+  color: #181C14;
+}

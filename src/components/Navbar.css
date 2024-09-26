@@ -1,0 +1,68 @@
+/* src/components/Navbar.css */
+
+/* Basic styling for the Navbar */
+.navbar {
+    position: fixed; /* Fix the navbar at the top of the viewport */
+    top: 0; /* Position it at the top of the screen */
+    left: 0; /* Start from the left edge */
+    right: 0; /* Extend to the right edge */
+    width: 100vw; /* Ensure full viewport width */
+    background-color: #3C3D37; /* Dark navbar background */
+    padding: 10px 20px; /* Add padding inside the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+    display: flex; /* Flexbox to handle content alignment */
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  /* Flex container for navbar items */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* App name styling */
+  .navbar-brand {
+    font-family: 'Orbitron', sans-serif; /* Modern tech font for Trackify */
+    color: #ECDFCC; /* Light color for brand text */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Container for right-aligned links */
+  .navbar-links {
+    display: flex;
+    gap: 20px; /* Space between the links */
+  }
+  
+  /* Unified styling for navbar links */
+  .navbar-link {
+    color: #ECDFCC; /* Light color for links */
+    text-decoration: none; /* Remove underline by default */
+    font-size: 20px;
+    font-weight: 600; /* Thicker font for a more stylish look */
+    cursor: pointer; /* Ensure pointer cursor */
+    transition: color 0.3s, font-weight 0.3s; /* Add transition for smooth hover and active effects */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  /* Styling for the active link without gradient */
+  .active-link {
+    color: #ECDFCC; /* Keep the same color as other links */
+    font-weight: 600; /* Slightly thicker font for emphasis */
+    font-style: italic; /* Italicize the current page link */
+  }
+  
+  /* Hover effect for links */
+  .navbar-link:hover {
+    text-decoration: none; /* Ensure no underline appears on hover */
+    color: #697565; /* Subtle change on hover for feedback */
+    font-weight: 700; /* Make font bold on hover */
+  }
+  
+  
+  

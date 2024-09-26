@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+/* src/App.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font globally */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Main container styling */
+body {
+  background-color: #181C14; /* Main background color */
+  color: #ECDFCC; /* Main text color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal overflow issues */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-content {
+  padding-top: 60px; /* Leave space for the navbar */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Form container styling */
+.main-content form {
+  background: #3C3D37; /* Form background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+  max-width: 400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px auto; /* Center form horizontally */
 }
 
-.App-link {
-  color: #61dafb;
+/* Input fields and buttons inside forms */
+.main-content input, .main-content select, .main-content button {
+  background-color: #697565; /* Input and button background */
+  color: #ECDFCC; /* Text color inside inputs and buttons */
+  border: 1px solid #3C3D37; /* Border color matching the dark theme */
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Button hover effect */
+button:hover {
+  background-color: #ECDFCC;
+  color: #181C14;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Links */
+a {
+  color: #ECDFCC;
+}
+
+a:hover {
+  color: #697565;
 }
