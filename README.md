@@ -1,16 +1,9 @@
 # Trackify - Job Application Tracker
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 Trackify is a modern, full-featured job application tracking web application designed to help users manage their job search process. It includes features such as authentication, session management, and an intuitive interface to track job applications efficiently.
 
-## Live Demo
-
-Check out the live version of Trackify [here](#) *(Add link once deployed)*.
-
-## Screenshots
-
-*(Include screenshots of the main pages: Login, Dashboard, Jobs, etc.)*
 
 ## Features
 
