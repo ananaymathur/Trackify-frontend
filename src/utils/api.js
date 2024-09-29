@@ -3,7 +3,6 @@ import axios from 'axios';
 
 
 const API_ENDPOINT = process.env.REACT_APP_API_URL
-console.log(API_ENDPOINT)
 
 // Create an Axios instance
 const API = axios.create({

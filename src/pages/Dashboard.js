@@ -32,6 +32,7 @@ const Dashboard = () => {
   return (
     <div className="main-content">
       <JobForm onSubmit={addJob} />
+      {console.log(jobs)}
       <JobList jobs={jobs} onUpdate={updateJobStatus} />
     </div>
   );

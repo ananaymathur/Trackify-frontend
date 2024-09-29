@@ -64,5 +64,16 @@
     font-weight: 700; /* Make font bold on hover */
   }
   
-  
+  .input-ico{
+    display: flex;
+    gap: 20px;
+    color: #ECDFCC;
+    cursor: pointer;
+    position: inherit;
+  }
+
+  .input-ico:hover {
+    color: #697565;
+    transition: color 0.3s;
+  }
   

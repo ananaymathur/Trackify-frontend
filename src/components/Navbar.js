@@ -41,7 +41,7 @@ const Navbar = ({ handleLogout }) => {
             className="navbar-link"
             onClick={logout}
           >
-            Logout
+            <span className="input-ico material-icons">logout</span>
           </Link>
         </div>
       </div>

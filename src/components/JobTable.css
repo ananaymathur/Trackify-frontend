@@ -1,0 +1,60 @@
+/* src/components/JobTable.css */
+
+.table-container {
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2a1717;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .job-table th,
+  .job-table td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  .job-table thead th {
+    background-color: #3c3d37;
+    color: #ecdfcc;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .job-table tbody tr {
+    border-bottom: 1px solid #ecdfcc;
+  }
+  
+  .job-table tbody tr:last-of-type {
+    border-bottom: none;
+  }
+  
+  .job-table tbody tr:hover {
+    background-color: #4f2e2e;
+  }
+  
+  .status {
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .delete-icon {
+    position: inherit;
+    color: #ECDFCC;
+    cursor: pointer;
+  }
+
+  .delete-icon:hover {
+    color: #697565;
+    transition: color 0.3s;
+  }
+
